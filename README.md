@@ -627,6 +627,14 @@ Serving content from CDNs can significantly improve performance in two ways:
 * Users receive content at data centers close to them
 * Your servers do not have to serve requests that the CDN fulfills
 
+### Examples of CDNs providers
+* [Akamai](https://www.akamai.com/)
+* [MaxCDN](https://www.maxcdn.com/)
+* [Cloudflare](https://www.cloudflare.com/cdn/)
+* [AWS CloudFront](https://aws.amazon.com/cloudfront/)
+* [Google CLoud](https://cloud.google.com/cdn/)
+* [Microsoft Azure](https://azure.microsoft.com/en-us/pricing/details/cdn/)
+
 ### Push CDNs
 
 Push CDNs receive new content whenever changes occur on your server.  You take full responsibility for providing content, uploading directly to the CDN and rewriting URLs to point to the CDN.  You can configure when content expires and when it is updated.  Content is uploaded only when it is new or changed, minimizing traffic, but maximizing storage.
@@ -648,7 +656,7 @@ Sites with heavy traffic work well with pull CDNs, as traffic is spread out more
 * CDNs require changing URLs for static content to point to the CDN.
 
 ### Source(s) and further reading
-
+* [How to add a CDN to your website](https://css-tricks.com/adding-a-cdn-to-your-website/)
 * [Globally distributed content delivery](https://figshare.com/articles/Globally_distributed_content_delivery/6605972)
 * [The differences between push and pull CDNs](http://www.travelblogadvice.com/technical/the-differences-between-push-and-pull-cdns/)
 * [Wikipedia](https://en.wikipedia.org/wiki/Content_delivery_network)
